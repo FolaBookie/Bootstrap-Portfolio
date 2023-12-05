@@ -42,6 +42,30 @@ h2 {
     color: #a52a2a;
 }
 
+.btn:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
 #contact {
     border-left: 2px solid #a52a2a;
 }
+
+.contact-list {
+    list-style: none;
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-list a:hover {
+    border-bottom: 1px solid #000;
+}
+
+
+ @media screen and (max-width: 768px) {
+    #contact{
+        border-left: none;
+    }
+ }
