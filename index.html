@@ -4,64 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Olubukola's Portfolio</title>
 </head>
 <body>
 <!--Navigation Code-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container d-flex">
-        <a class="navbar-brand mr-auto" href="#">Olubukola</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-            </ul>
-        </div>
-        </div>
-    </nav>
+<nav class="container-fluid navbar navbar-expand-lg" id="nav">
+  <div class="container d-flex custom-nav">
+    <a class="navbar-brand fw-bold" href="#">OLUBUKOLA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#work">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-me">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <!--Hero Section-->
 <main class="container-fluid">
     <section class="container my-4">
-        <div class="">
-            <header class="header">
-                <h1 id="name">
-                <img src="./images/avatar.png" alt="a female avatar"/>
-                <span>Olubukola<span>
-                </h1>
-        </div>
+      <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+        <img src="images/avatar.png" class="portfolio-image" alt="a female avatar">
+        <h1 class="display-5 fw-bold">Olubukola</h1>
+        <p class="col-md-8 fs-4">Welcome to my portfolio. I am an aspiring web developer. Feel free to explore my works.</p>
+      </div>
     </section>
 
 <!--Work Section-->
-<section class="container text-center my-4">
+<section class="container text-center my-4" id="work">
+  <h2>Work</h2>
     <div class="row mb-2">
       <div class="col">
         <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="images/portfolio-image.png" class="card-img-top work-image" alt="a portfolio page">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h3 class="card-title">My Landing Page</h3>
+              <p class="card-text">A Portfolio created using HTML and CSS</p>
+              <a href="https://folabookie.github.io/my-landing-page/" target="_blank" class="btn btn-primary">Click to Download</a>
             </div>
           </div>
       </div>
       <div class="col">
         <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="images/diary-3.jpg" class="card-img-top work-image" alt="a hand writing in a red book">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Diary Tracker</h5>
+              <p class="card-text">A placeholder app created using HTML and CSS to enable users to track their diary</p>
+              <a href="#" class="btn btn-primary">Click to Download</a>
             </div>
           </div>
       </div>
@@ -69,31 +71,31 @@
     <div class="row">
       <div class="col">
         <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="images/sounds right.jpg" class="card-img-top work-image" alt="a hand pointing to three different sounds">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Sounds Right</h5>
+              <p class="card-text">A placeholder app that enables the user to hear the sounds in English phonics created using CSS,Javascript and React</p>
+              <a href="#" class="btn btn-primary">Click to Download</a>
             </div>
           </div>
       </div>
       <div class="col">
         <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="images/backpain.jpg" class="card-img-top work-image" alt="three hands on the right side of the back of a person wearing a blue t-shirt">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Back Exercises</h5>
+              <p class="card-text">A placeholder app that enables the user to view exercises for the upper, mid- and lower back created using Node and IoT</p>
+              <a href="#" class="btn btn-primary">Click to Download</a>
             </div>
           </div>
       </div>
       <div class="col">
         <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="images/facial assessment.jpg" class="card-img-top work-image" alt="a face showing the facial nerves">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Facial Palsy Assessment</h5>
+              <p class="card-text">A placeholder app that enables the user to assess people with facial palsy created using CSS,Javascript and React</p>
+              <a href="#" class="btn btn-primary">Click to Download</a>
             </div>
           </div>
       </div>
@@ -101,24 +103,33 @@
 </section>
 
   <!--Skills Section-->
-  <section class="container my-4">
-  <ul class="list-group">
-    <li class="list-group-item active" aria-current="true">HTML</li>
-    <li class="list-group-item">CSS</li>
-    <li class="list-group-item">Bootsrap</li>
-    <li class="list-group-item">Javascript</li>
-    <li class="list-group-item">React</li>
-  </ul>
+  <section class="container my-4"id="skills">
+    <h2>Skills</h2>
+      <ul class="list-group">
+        <li class="list-group-item active" aria-current="true">HTML</li>
+        <li class="list-group-item">CSS</li>
+        <li class="list-group-item">Bootsrap</li>
+        <li class="list-group-item">Javascript</li>
+        <li class="list-group-item">React</li>
+      </ul>
   </section>
 
   <!--About Me/Contact Section-->
   <section class="container my-4">
     <div class="row">
-      <div class="col">
-        About me
+      <div class="col" id="about-me">
+        <h2>About Me</h2>
+          <p>I am a physiotherapist looking for a new career path in tech. i am currently a student at the Skills for Life Bootcamp where I am learning new programming languages in frontend development. As this is a collaborative industry, I look forward to working with different developers on various projects.</p>
       </div>
-      <div class="col">
-        contact
+      <div class="col" id="contact">
+        <h2>Contact</h2>
+          <ul class="contact-list">
+            <li class="phone-contact"><a href="#">000 000 0000</a></li>
+            <li class="linkedIn"><a href="#">LinkedIn</a></li>
+            <li class="github"><a href="#">GitHub</a></li>
+            <li class="email"><a href="#">folabookie@gmail.com</a></li>
+            <li class="media"><a href="#">Twitter</a></li>
+          </ul>
       </div>
     </div>
 </section>

@@ -1,0 +1,26 @@
+
+#nav {
+    background-color: #a52a2a;
+}
+.custom-nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#navbarNav a, #nav .navbar-brand {
+    color: #fff;
+}
+
+#navbarNav {
+    flex-grow: 0;
+}
+
+.portfolio-image {
+    border-radius: 999px;
+}
+.work-image {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
