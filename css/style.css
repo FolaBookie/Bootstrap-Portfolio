@@ -19,8 +19,29 @@
 .portfolio-image {
     border-radius: 999px;
 }
+
+.hero-section { 
+    background-image: url("../images/background-image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #a52a2a;
+}
+
 .work-image {
     height: 250px;
     width: 100%;
     object-fit: cover;
+}
+
+h2 {
+    color: #a52a2a;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #a52a2a;
+}
+
+#contact {
+    border-left: 2px solid #a52a2a;
 }
