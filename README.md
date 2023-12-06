@@ -31,6 +31,8 @@ BOOTSTRAP-PORTFOLIO/
 ├── background-image.jpg
 ├── background-image2.jpg
 ├── sounds right.jpg
+├── notepad.jpg
+├── portfolio-image.png
 ├── backpain.jpg
 ├── facial-assessment.jpg
 └── diary-3.jpg
@@ -46,3 +48,4 @@ To view the portfolio locally:
 
 This project is licensed under the [MIT License](LICENSE).
 
+![Portfolio Screenshot](images/bootstrap-portfolio.png)
